@@ -19,7 +19,7 @@ function createTask() {
   listItem.appendChild(textItem);
   listItem.appendChild(closeItem);
   $(".task-container").append(listItem);
-  $("#input").val(" ");
+  $("#input").val("");
 }
 
 $(document).ready(function () {
